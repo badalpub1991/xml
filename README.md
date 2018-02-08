@@ -124,7 +124,7 @@ DETAIL CONDITION :-
        public private(set) var __v : Int?
        }*/ 
              // MARK:- Find All Channel
-    func findAllChannel(complition: @escaping ComplitionHandler) {
+       func findAllChannel(complition: @escaping ComplitionHandler) {
         Alamofire.request(URL_GET_CHANNELS, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             if response.result.error == nil {
                 guard let data = response.data else {return}
