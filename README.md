@@ -163,4 +163,12 @@ DETAIL CONDITION :-
             }
         }
        }
+       
+4) Creating Array in Swift
+            
+             var yourArray = [String]()
+             
+5) Creating Dictionary in Swift
+   
+             https://www.agnosticdev.com/content/how-work-dictionaries-swift-4
 
